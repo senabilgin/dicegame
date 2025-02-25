@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿        Dice dice1= new Dice(6);
+        Dice.roll();
+        Console.WriteLine(dice.TopSide);
+        

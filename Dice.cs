@@ -13,7 +13,16 @@ public class Dice
         }
 
         //constructors
-        public Dice(int numOfSides)
+        public Dice()
+        {
+            dice = new Random();
+            Roll();
+        }
+        
+        public void Roll()
+        {
+            topSide = dice.Next(0, numOfSides + 1);
+        }
 
 
 }
